@@ -64,14 +64,14 @@ main()
         {
         if(p > i)
             {
-            println("Doubly occupying site ",i);
+            //println("Doubly occupying site ",i);
             state.set(i,"UpDn");
             p -= 2;
             }
         else
         if(p > 0)
             {
-            println("Singly occupying site ",i);
+            //println("Singly occupying site ",i);
             state.set(i,(i%2==1 ? "Up" : "Dn"));
             p -= 1;
             }
