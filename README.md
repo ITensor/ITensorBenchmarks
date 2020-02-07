@@ -37,7 +37,7 @@ You can run the unittests to check that the installation is correct:
 
 Now to run benchmark 1, enter the example1 directory:
 
- > cd ~/software/ITensorBenchmark/example1
+ > cd ~/software/ITensorBenchmarks/example1
 
 First modify the Makefile to point to the location of the ITensor libary (in this example, ~/software/ITensor), and then build:
 
